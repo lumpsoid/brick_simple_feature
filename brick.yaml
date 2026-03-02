@@ -1,0 +1,10 @@
+name: simple_feature
+description: Generates Controller/Presenter/State/Effects/Page boilerplate
+version: 0.1.0+1
+environment:
+  mason: ^0.1.2
+vars:
+  feature_name:
+    type: string
+    description: Feature name in PascalCase (e.g. OnboardNew, UserProfile)
+    prompt: "Feature name (PascalCase):"
